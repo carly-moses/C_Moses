@@ -5,71 +5,125 @@ const home = {
 
     <header>
         <h1>Carly Moses</h1>
-        <p>About Me , yo</p> 
+
+        <section class="contact_info">
+            <section>
+                <img src="images/github.png" class="logo"><a class="logo_a" href="https://github.com/carly-moses"> carly-moses</a>
+            </section>
+            <section>
+                <img src="images/email.png" class="logo"><a class="logo_a" href="cmoses916@gmail.com"> cmoses916@gmail.com</a>
+            </section>
+            <section>
+                <img src="images/linkedin.png" class="linkedin_logo"><a class="logo_a" href="https://www.linkedin.com/in/carly-moses/"> carly-moses</a>
+            </section>
+        </section>
+        <h4>About Me , yo</h4> 
     </header>
 
     <section class="container">
         <section class="project">
-            <h3>The Grand Escape</h3>
-            <img src="images/grandEscape.png">
+            <h2>The Grand Escape</h2>
+            <a href="https://avport.github.io/theGrandEscape/app/public/index.html#!/welcome"><img src="images/grandEscape.png"></a>
             <section class="overlay">
-                <section class="info">The Grand Escape was created with a group of four as our final project for Grand Circus Front-End Developement Bootcamp</section>
+                <section class="info">
+                    <p><a href="https://avport.github.io/theGrandEscape/app/public/index.html#!/welcome">The Grand Escape</a> was created with a group of four as our final project for Grand Circus Front-End Developement Bootcamp</p>
+                </section>
             </section>
         </section>
 
         <section class="project">
-            <h3>AngularJS Movie</h3>
-            <img src="images/amp.png">
-            <section class="info">Completed with a group of four. Making calls to the Movie DB to retrieve a list of popular movies. </section>
+            <h2>AngularJS Movie</h2>
+            <a href="https://ristaujo.github.io/angularProject/#!/movielist"><img src="images/amp.png"></a>
+            <section class="overlay">
+                <section class="info">
+                    <p><a href="https://ristaujo.github.io/angularProject/#!/movielist">Movie</a> completed with a group of four. Making calls to the Movie DB to retrieve a list of popular movies. </p>
+                </section>
+            </section>
         </section>
 
         <section class="project">
-            <h3>jQuery Matching</h3>
-            <img src="images/motorcityMem.png">
-            <section class="info">Created with a group of four to </section>
+            <h2>jQuery Matching</h2>
+            <a href="https://nickburnell.github.io/Midterm-Memoryboard/"><img src="images/motorcityMem.png"></a>
+            <section class="overlay">
+                <section class="info">
+                    <p><a href="https://nickburnell.github.io/Midterm-Memoryboard/">Matching</a>Created with a group of four to </p>
+                </section>
+            </section>
         </section>
 
         <section class="project">
-            <h3>My Own Project, Blah</h3>
-            <img>
-            <section class="info"></section>
+            <h2>My Own Project</h2>
+            <a href="https://nickburnell.github.io/Midterm-Memoryboard/"><img src="images/motorcityMem.png"></a>
+            <section class="overlay">
+                <section class="info">
+                    <p><a href="https://nickburnell.github.io/Midterm-Memoryboard/">Matching</a>Created with a group of four to </p>
+                </section>
+            </section>
         </section>
 
         <section class="project">
-            <h3>AngularJS Profile</h3>
-            <img>
-            <section class="info"></section>
+            <h2>AngularJS Profile</h2>
+            <a href="https://nickburnell.github.io/Midterm-Memoryboard/"><img src="images/motorcityMem.png"></a>
+            <section class="overlay">
+                <section class="info">
+                    <p><a href="https://nickburnell.github.io/Midterm-Memoryboard/">Matching</a>Created with a group of four to </p>
+                </section>
+            </section>
         </section>
 
         <section class="project">
-            <h3>AngularJS TODO</h3>
-            <img>
-            <section class="info"></section>
+            <h2>AngularJS TODO</h2>
+            <a href="https://nickburnell.github.io/Midterm-Memoryboard/"><img src="images/motorcityMem.png"></a>
+            <section class="overlay">
+                <section class="info">
+                    <p><a href="https://nickburnell.github.io/Midterm-Memoryboard/">Matching</a>Created with a group of four to </p>
+                </section>
+            </section>
         </section>
 
         <section class="project">
-            <h3>jQuery</h3>
-            <img>
-            <section class="info"></section>
+            <h2>jQuery</h2>
+            <a href="https://nickburnell.github.io/Midterm-Memoryboard/"><img src="images/motorcityMem.png"></a>
+            <section class="overlay">
+                <section class="info">
+                    <p><a href="https://nickburnell.github.io/Midterm-Memoryboard/">Matching</a>Created with a group of four to </p>
+                </section>
+            </section>
         </section>
 
         <section class="project">
-            <h3>Vanilla JS</h3>
-            <img>
-            <section class="info"></section>
+            <h2>Vanilla JS</h2>
+            <a href="https://nickburnell.github.io/Midterm-Memoryboard/"><img src="images/motorcityMem.png"></a>
+            <section class="overlay">
+                <section class="info">
+                    <p><a href="https://nickburnell.github.io/Midterm-Memoryboard/">Matching</a>Created with a group of four to </p>
+                </section>
+            </section>
         </section>
 
         <section class="project html_css">
-            <h3>HTML/CSS</h3>
-            <img>
-            <section class="info"></section>
+            <h2>HTML/CSS</h2>
+            <a href="https://nickburnell.github.io/Midterm-Memoryboard/"><img src="images/motorcityMem.png"></a>
+            <section class="overlay">
+                <section class="info">
+                    <p><a href="https://nickburnell.github.io/Midterm-Memoryboard/">Matching</a>Created with a group of four to </p>
+                </section>
+            </section>
         </section>
     </section>
 
     <footer>
-        <p>Linkedin: </p>
-        <p>Github: </p>
-        <p>Email: </p>
+        
+        <section>
+            <img src="images/github.png" class="logo"><a class="logo_a" href="https://github.com/carly-moses">carly-moses</a>
+        </section>
+        <section>
+            <img src="images/email.png" class="logo"><a class="logo_a" href="cmoses916@gmail.com">cmoses916@gmail.com</a>
+        </section>
+        <section>
+            <img src="images/linkedin.png" class="linkedin_logo"><a class="logo_a" href="https://www.linkedin.com/in/carly-moses/"> carly-moses</a>
+        </section>
+        
     </footer>
 
 

@@ -5,9 +5,15 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover cover;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     height: 100%;
     width: 100%;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Francois One', sans-serif;
     margin: 0;
 }
 
@@ -16,10 +22,21 @@ header {
     flex-direction: column;
     align-items: center;
     background: rgba(44,47,48, 0.8);
+    color: rgb(86,179,201);
     height: 30%;
     width: 100%;
     margin-top: 5%;
     margin-bottom: 10px;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: row;
+}
+
+header section {
+    display: flex;
+    align-items: center;
 }
 
 .container {
@@ -41,6 +58,15 @@ header {
     border-radius: 5px; 
 }
 
+.project a {
+    display: flex;
+    justify-content: center;
+}
+
+.info a {
+    display: inline;
+}
+
 img {
     height: 80%;
     width: 80%;
@@ -52,15 +78,48 @@ img {
     display: flex;
     justify-content: center;
     margin: 5%;
+    text-align: center;
 }
 
 footer {
     display: flex;
     justify-content: space-around;
+    align-self: center;
+    /* align-items: center; */
     width: 100%;
     height: 10%;
-    background: rgba(44,47,48, 0.8);
+    /* background: rgba(44,47,48, 0.8); */
+    background: rgb(86,179,201, 0.8);
     margin-top:10px;
+}
+
+footer section {
+    display: flex;
+    align-items: center
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+.logo_a {
+    font-style: inherit;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin: 10px;
+}
+
+.linkedin_logo {
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin: 10px;
 }
 
 @media only screen and (min-width: 768px){
@@ -73,11 +132,53 @@ footer {
     img {
         width: 250px;
         height: 200px;
+        /* Test */
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
     }
+
+    /* Test */
+    .overlay {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        padding: 0%;
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column; 
+        align-content: center;
+        bottom: -15%;
+        left: 50%;
+        border-radius: 5px;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        background: rgba(44,47,48, 0.8);
+    }
+
+    .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .project:hover image {
+        opacity: 0.3;
+      }
+    
+    .project:hover .overlay {
+        opacity: 1;
+      }
+    
 
     .project {
         width: 40%;
-        height: 40%;
+        height: 300px;
+        /* Test */
+        position: relative;
     }
 
     .html_css {
@@ -87,9 +188,7 @@ footer {
 
 @media only screen and (min-width: 1200px){
 
-    body {
-        /* background-attachment: fixed; */
-    }
+  
 
     header {
         margin-top: 0;
@@ -100,8 +199,8 @@ footer {
         justify-content: space-between;
     }
     .project {
-        width: 27%;
-        height: 27%;
+        width: 30%;
+        height: 310px;
 
     }
 
