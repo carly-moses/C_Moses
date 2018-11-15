@@ -1,0 +1,23 @@
+{
+  "name": "c_moses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carly-moses/C_Moses.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carly-moses/C_Moses/issues"
+  },
+  "homepage": "https://github.com/carly-moses/C_Moses#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
