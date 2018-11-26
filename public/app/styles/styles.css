@@ -90,6 +90,15 @@ img {
     width: 75%;
     border: 1px white solid;
     border-radius: 5px;
+    position: relative;
+}
+
+.caution_img {
+    opacity: 0.75;
+    position: absolute;
+    z-index: 100;
+    /* For IE8 and earlier */
+    /* filter: alpha(opacity=50);  */
 }
 
 .info {
@@ -97,6 +106,9 @@ img {
     justify-content: center;
     margin: 5%;
     text-align: center;
+    /* z-index: 200; */
+    /* position: absolute; */
+
 }
 
 p {
